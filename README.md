@@ -1,3 +1,6 @@
+Team Echo
+Studen 1-Divya Sajjanar (1MS24EC032)
+Student 2-Harshitha C P (1MS24CS067)
 # Next-Gen Kannada Grammar Engine
 
 ## Project Description
