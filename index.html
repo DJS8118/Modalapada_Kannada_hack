@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KannadaGrammar AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Noto+Sans+Kannada:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">KannadaGrammar AI</h1>
+            <p class="subtitle">Real-time Kannada Grammar Correction with AI</p>
+        </header>
+
+        <main class="main-stage">
+            <div class="microphone-wrapper">
+                <button id="recordBtn" class="record-btn">
+                    <svg class="mic-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                        <line x1="12" y1="19" x2="12" y2="23"></line>
+                        <line x1="8" y1="23" x2="16" y2="23"></line>
+                    </svg>
+                    <span class="record-text">Record</span>
+                </button>
+            </div>
+
+            <div class="arrow-container">
+                <svg class="arrow-svg" width="100" height="60" viewBox="0 0 100 60">
+                    <path d="M10 30 L90 30 M75 20 L90 30 L75 40" stroke="rgba(255, 255, 255, 0.3)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+            <div class="cards-container">
+                <div class="glass-card input-card">
+                    <div class="card-header">
+                        <h2>You Said</h2>
+                    </div>
+                    <div class="card-content">
+                        <p id="inputText" class="text-display">ನಿಮ್ಮ ಮಾತನ್ನು ಇಲ್ಲಿ ಕೇಳಲಾಗುತ್ತದೆ...</p>
+                    </div>
+                </div>
+
+                <div class="glass-card output-card">
+                    <div class="card-header">
+                        <h2>AI Corrected</h2>
+                    </div>
+                    <div class="card-content">
+                        <p id="outputText" class="text-display">ಸರಿಪಡಿಸಿದ ಪಠ್ಯವನ್ನು ಇಲ್ಲಿ ನೋಡಿ...</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
