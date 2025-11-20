@@ -1,0 +1,9 @@
+word,pos_tag,features
+ನಾನು,PRONOUN,person=1st;number=singular
+ನೀನು,PRONOUN,person=2nd;number=singular
+ಅವನು,PRONOUN,person=3rd;number=singular;gender=masculine
+ಅವಳು,PRONOUN,person=3rd;number=singular;gender=feminine
+ಹೋಗುತ್ತಾನೆ,VERB,person=1st;number=singular;tense=present
+ಹೋಗುತ್ತಾನೆ,VERB,person=3rd;number=singular;gender=masculine;tense=present
+ಪುಸ್ತಕ,NOUN,type=common
+ಶಾಲೆ,NOUN,type=place

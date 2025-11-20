@@ -1,0 +1,25 @@
+# Python Dependencies for Next-Gen Kannada Grammar Engine
+# Install with: pip install -r requirements.txt
+
+# Core NLP and Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Web Scraping (for dictionary integration)
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Natural Language Processing (if using advanced NLP libraries)
+# nltk>=3.8  # Uncomment if using NLTK
+# spacy>=3.5.0  # Uncomment if using spaCy (requires Kannada model)
+
+# Audio Processing (for speech-to-text)
+# speech_recognition>=3.10.0  # Uncomment if using speech_recognition library
+# pydub>=0.25.0  # Uncomment for audio file manipulation
+
+# Web Framework (if deploying backend as API)
+# flask>=2.3.0  # Uncomment if using Flask
+# fastapi>=0.100.0  # Uncomment if using FastAPI
+# uvicorn>=0.23.0  # Uncomment if using FastAPI with uvicorn
+

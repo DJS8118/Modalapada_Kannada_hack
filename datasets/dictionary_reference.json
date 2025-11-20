@@ -1,0 +1,23 @@
+{
+  "dictionary_name": "Padakanaja - Karnataka Government Open Dictionary",
+  "url": "https://padakanaja.karnataka.gov.in/open_dictionary/",
+  "description": "Comprehensive Kannada and English dictionary provided by Karnataka Sahitya Parishat",
+  "integration_status": "Reference data source (no public API available)",
+  "usage": "Used as reference for validating word genders, POS tags, and meanings",
+  "data_extraction": "Web scraping/parsing possible but requires compliance with terms of service",
+  "alternative_apis": [
+    {
+      "name": "Shabdkosh",
+      "url": "https://www.shabdkosh.com/",
+      "note": "Provides bilingual dictionary APIs with Kannada support"
+    }
+  ],
+  "integration_module": "code/dictionary_utils.py",
+  "functions_available": [
+    "lookup_word_padakanaja() - Look up a single word",
+    "batch_lookup_words() - Batch lookup multiple words",
+    "enhance_pos_tags_with_dictionary() - Enhance POS tags CSV with dictionary data",
+    "create_dictionary_reference_file() - Create reference documentation"
+  ]
+}
+

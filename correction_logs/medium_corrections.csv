@@ -1,0 +1,2 @@
+sentence_id,original_text,error_type,incorrect_part,corrected_part,final_sentence
+1,ಪುಸ್ತಕ ರಾಮು ಓದುತ್ತಾರೆ,word_order,ಪುಸ್ತಕ ರಾಮು,ರಾಮು ಪುಸ್ತಕ,ರಾಮು ಪುಸ್ತಕ ಓದುತ್ತಾರೆ

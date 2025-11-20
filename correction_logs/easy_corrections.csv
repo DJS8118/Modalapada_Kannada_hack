@@ -1,0 +1,2 @@
+sentence_id,original_text,error_type,incorrect_part,corrected_part,final_sentence
+1,ನಾನು ಹೋಗುತ್ತೇನೆ,verb_agreement,ಹೋಗುತ್ತೇನೆ,ಹೋಗುತ್ತೇನೆ,ನಾನು ಹೋಗುತ್ತೇನೆ

@@ -1,0 +1,4 @@
+rule_id,pattern,description
+1,SOV,Standard Kannada sentence structure
+2,OSV,Object-Subject-Verb (often incorrect)
+3,VOS,Verb-Object-Subject (often incorrect)

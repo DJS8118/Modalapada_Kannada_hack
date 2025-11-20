@@ -1,0 +1,2 @@
+sentence_id,original_text,error_type,incorrect_part,corrected_part,final_sentence
+1,ರಾಮು ಶಾಲೆಗೆ ಹೋಗುತ್ತಾರರಿ ಮತ್ತು ಸೀತೆ ಮನೆಯಲ್ಲಿ ಇರುತ್ತಾನೆ,multiple_errors,ಹೋಗುತ್ತಾರರಿ;ಇರುತ್ತಾನೆ,ಹೋಗುತ್ತಾನೆ;ಇರುತ್ತಾಳೆ,ರಾಮು ಶಾಲೆಗೆ ಹೋಗುತ್ತಾನೆ ಮತ್ತು ಸೀತೆ ಮನೆಯಲ್ಲಿ ಇರುತ್ತಾಳೆ
